@@ -391,6 +391,7 @@ void GLViewport::setRegions(QVector<TextRegion> *nregions){
 	  selected_region = &(*regions)[0];
 	  selected_region_index = 0;
 	  mw->updateID(selected_region->id);
+	  
 	  lines = &selected_region->lines;
 	  selected_line=0;
 	  selected_line_index=-1;

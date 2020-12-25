@@ -893,6 +893,9 @@ int main(int argc,char** argv ) {
 	outFileName_line << inFileName; 
       }
 
+
+      //      text_region.child("Coords").attribute("points").value();
+      //      outFileName_line  << text_region.attribute("id").value();
       //outFileName_line <<"_"<< num_linea_str.str()<< "_"<< lines[cont_lin].name << ".jpg";
       outFileName_line << "_" << lines[cont_lin].name << ".jpg";
       cont_lin++;
