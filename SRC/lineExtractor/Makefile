@@ -1,5 +1,5 @@
 all: lineExtractor
-INCLUDE=-I. -I../LIB
+INCLUDE=-I. -I../LIB 
 OPEN_LIBS=`pkg-config --cflags --libs opencv4` -lpugixml
 
 PROG_LIBS=../LIB/libXmlPAGE.o ../LIB/libPoints.o ../LIB/slopeClass.o
